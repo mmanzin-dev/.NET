@@ -1,0 +1,211 @@
+﻿@page
+@model Lottery.Pages.Loto.Loto7x39Model
+
+<section class="page-wrap">
+    <div class="card">
+        <header class="card-header">
+            <div class="title-wrap">
+                <span class="logo-dot"></span>
+                <h2 class="title">Loto 7 / 39</h2>
+            </div>
+            <p class="subtitle">Generate 7 unique numbers between 1 and 39</p>
+        </header>
+
+        <form method="get" class="actions">
+            <button type="submit" class="btn-primary">
+                <span class="btn-icon">🎲</span>
+                Draw Numbers
+            </button>
+        </form>
+
+        @if (Model.Numbers != null && Model.Numbers.Count > 0)
+        {
+            <div class="numbers-wrap">
+                @foreach (var n in Model.Numbers)
+                {
+                    <span class="ball">@n</span>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="empty-state">
+                <div class="ghost">🎰</div>
+                <p>Click “Draw Numbers” to see your combination.</p>
+            </div>
+        }
+
+        <footer class="footer-note">
+            <p class="disclaimer">Play responsibly. This is a demo generator, not an official ticket.</p>
+        </footer>
+    </div>
+</section>
+
+<style>
+    /* Theme (solid colors only) */
+    :root {
+        --bg: #101427;
+        --surface: #151a30;
+        --surface-2: #1d2340;
+        --border: #2b3155;
+        --text: #e9ecff;
+        --muted: #b9c2ff;
+        --accent: #6f59ff;
+        --accent-strong: #5a46e6;
+        --ball-bg: #1e2546;
+        --ball-ring: #8fa0ff;
+    }
+
+    /* Base */
+    html, body {
+        height: 100%;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .page-wrap {
+        min-height: 100%;
+        display: grid;
+        place-items: center;
+        padding: 40px 16px;
+    }
+
+    /* Card (no gradients) */
+    .card {
+        width: min(900px, 92vw);
+        border-radius: 16px;
+        padding: 24px;
+        border: 1px solid var(--border);
+        background: var(--surface);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.35), 0 1px 0 rgba(255,255,255,0.02) inset;
+    }
+
+    /* Header */
+    .card-header {
+        margin-bottom: 18px;
+    }
+
+    .title {
+        margin: 0;
+        font-size: clamp(22px, 3.6vw, 30px);
+        letter-spacing: 0.2px;
+        color: var(--text);
+    }
+
+    .title-wrap {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .logo-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: var(--accent);
+        box-shadow: 0 0 8px rgba(111,89,255,0.6);
+    }
+
+    .title {
+        margin: 0;
+        font-size: clamp(22px, 3.6vw, 30px);
+        letter-spacing: 0.2px;
+    }
+
+    .subtitle {
+        margin: 6px 0 0 22px;
+        color: var(--muted);
+        font-size: 14px;
+    }
+
+    /* Actions */
+    .actions {
+        margin: 14px 0 18px 0;
+    }
+
+    .btn-primary {
+        appearance: none;
+        border: 0;
+        padding: 12px 18px;
+        border-radius: 12px;
+        color: #fff;
+        background: var(--accent);
+        box-shadow: 0 8px 20px rgba(111,89,255,0.35), 0 0 0 1px rgba(255,255,255,0.06) inset;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+        transition: transform .08s ease, box-shadow .18s ease, filter .18s ease, background-color .18s ease;
+    }
+
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            background: var(--accent-strong);
+            box-shadow: 0 12px 26px rgba(111,89,255,0.45), 0 0 0 1px rgba(255,255,255,0.08) inset;
+        }
+
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+
+    .btn-icon {
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    /* Numbers */
+    .numbers-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        padding: 14px 4px 4px 4px;
+    }
+
+    .ball {
+        --size: 56px;
+        height: var(--size);
+        width: var(--size);
+        display: inline-grid;
+        place-items: center;
+        border-radius: 50%;
+        background: var(--ball-bg);
+        color: #f4f6ff;
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.3px;
+        border: 2px solid rgba(143,160,255,0.35);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.35), 0 1px 0 rgba(255,255,255,0.06) inset;
+    }
+
+    /* Empty state */
+    .empty-state {
+        display: grid;
+        place-items: center;
+        padding: 28px 12px 8px 12px;
+        color: var(--muted);
+        text-align: center;
+    }
+
+    .ghost {
+        font-size: 42px;
+        filter: drop-shadow(0 6px 14px rgba(0,0,0,0.35));
+        margin-bottom: 6px;
+    }
+
+    /* Footer */
+    .footer-note {
+        margin-top: 16px;
+        border-top: 1px dashed rgba(255,255,255,0.12);
+        padding-top: 12px;
+    }
+
+    .disclaimer {
+        margin: 0;
+        font-size: 12px;
+        color: var(--muted);
+    }
+</style>

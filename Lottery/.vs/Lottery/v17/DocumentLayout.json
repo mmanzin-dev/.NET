@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{900BB706-C622-4F34-B681-BF9B96A5D616}|Lottery.csproj|c:\\users\\matko\\documents\\github\\.net\\lottery\\pages\\loto\\loto7x39.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{900BB706-C622-4F34-B681-BF9B96A5D616}|Lottery.csproj|solutionrelative:pages\\loto\\loto7x39.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900BB706-C622-4F34-B681-BF9B96A5D616}|Lottery.csproj|c:\\users\\matko\\documents\\github\\.net\\lottery\\pages\\loto\\loto6x45.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{900BB706-C622-4F34-B681-BF9B96A5D616}|Lottery.csproj|solutionrelative:pages\\loto\\loto6x45.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900BB706-C622-4F34-B681-BF9B96A5D616}|Lottery.csproj|c:\\users\\matko\\documents\\github\\.net\\lottery\\pages\\loto\\loto6x45.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900BB706-C622-4F34-B681-BF9B96A5D616}|Lottery.csproj|solutionrelative:pages\\loto\\loto6x45.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900BB706-C622-4F34-B681-BF9B96A5D616}|Lottery.csproj|c:\\users\\matko\\documents\\github\\.net\\lottery\\pages\\loto\\loto7x39.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900BB706-C622-4F34-B681-BF9B96A5D616}|Lottery.csproj|solutionrelative:pages\\loto\\loto7x39.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900BB706-C622-4F34-B681-BF9B96A5D616}|Lottery.csproj|c:\\users\\matko\\documents\\github\\.net\\lottery\\helper\\lotonumbergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900BB706-C622-4F34-B681-BF9B96A5D616}|Lottery.csproj|solutionrelative:helper\\lotonumbergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900BB706-C622-4F34-B681-BF9B96A5D616}|Lottery.csproj|c:\\users\\matko\\documents\\github\\.net\\lottery\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{900BB706-C622-4F34-B681-BF9B96A5D616}|Lottery.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T10:43:33.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Loto7x39.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\Pages\\Loto\\Loto7x39.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Loto\\Loto7x39.cshtml",
+              "ToolTip": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\Pages\\Loto\\Loto7x39.cshtml",
+              "RelativeToolTip": "Pages\\Loto\\Loto7x39.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T10:42:50.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Loto6x45.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\Pages\\Loto\\Loto6x45.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Loto\\Loto6x45.cshtml",
+              "ToolTip": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\Pages\\Loto\\Loto6x45.cshtml",
+              "RelativeToolTip": "Pages\\Loto\\Loto6x45.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwFoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T10:42:49.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LotoNumberGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\Helper\\LotoNumberGenerator.cs",
+              "RelativeDocumentMoniker": "Helper\\LotoNumberGenerator.cs",
+              "ToolTip": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\Helper\\LotoNumberGenerator.cs",
+              "RelativeToolTip": "Helper\\LotoNumberGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T10:35:22.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Loto7x39.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\Pages\\Loto\\Loto7x39.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Loto\\Loto7x39.cshtml.cs",
+              "ToolTip": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\Pages\\Loto\\Loto7x39.cshtml.cs",
+              "RelativeToolTip": "Pages\\Loto\\Loto7x39.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T10:16:03.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Loto6x45.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\Pages\\Loto\\Loto6x45.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Loto\\Loto6x45.cshtml.cs",
+              "ToolTip": "C:\\Users\\Matko\\Documents\\GitHub\\.NET\\Lottery\\Pages\\Loto\\Loto6x45.cshtml.cs",
+              "RelativeToolTip": "Pages\\Loto\\Loto6x45.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T10:03:07.652Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
