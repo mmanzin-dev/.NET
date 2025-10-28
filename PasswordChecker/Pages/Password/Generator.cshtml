@@ -1,0 +1,26 @@
+﻿@page
+@model PasswordChecker.Pages.Password.Generator.GeneratorModel
+@{
+    ViewData["Title"] = "Password Generator";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Generate passwords</h1>
+    <p>Click the button to generate 10 strong passwords</p>
+    <form method="get">
+        <button type="submit" class="btn btn-primary">Generate Passwords</button>
+    </form>
+</div>
+
+<div class ="mt-4">
+    @if (Model.GeneratedPasswords != null && Model.GeneratedPasswords.Count > 0)
+    {
+        <h3>Generated Passwords:</h3>
+        <ul class="list-group">
+            @foreach (var password in Model.GeneratedPasswords)
+            {
+                <li class="list-group-item">@password.Value</li>
+            }
+        </ul>
+    }
+</div>

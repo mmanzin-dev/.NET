@@ -1,0 +1,22 @@
+﻿@page
+@model PasswordChecker.Pages.Password.Checker.CheckerModel
+@{
+    ViewData["Title"] = "Password Checker";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Check your password</h1>
+    <p>Enter a password below to check its validity</p>
+
+    <form method="post">
+        <div class="mb-3">
+            <label for="passwordInput" class="form-label">Enter Password to Check:</label>
+            <input type="password" class="form-control" id="passwordInput" name="Password.Value"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Check Password</button>
+    </form>  
+</div>
+
+<div class ="mt-4">
+    @ViewData["message"]
+</div>
